@@ -1,3 +1,8 @@
+a{
+  color: #F3C5C5;
+  text-decoration: none;
+}
+
 body{
   background-color: #EEF2FF;
   color: #2C3333;
@@ -35,20 +40,16 @@ hr{
   width: 5%;
 }
 
-a{
-  color: #F3C5C5;
-  text-decoration: none;
-}
-
 p{
   font-family: sans;
   font-size: 1.3rem;
   margin-bottom: 50px;
 }
+
 /*********************** Class ********************************/
 .bottom-cloud{
-  position: absolute;
   left: 250px;
+  position: absolute;
 }
 
 .bottom-container{
@@ -56,62 +57,13 @@ p{
   background-color: #6A5495;
 }
 
-.middle-container{
-  background-color: white;
-}
-.profile-picture{
-  padding-top: 70px;
-  width: 200px;
-}
-
-.img-computer{
-  float: left;
-  margin-right: 30px;
-  width: 25%;
-
-}
-
-.img-chilli{
-  float: right;
-  margin-left: 30px;
-  width: 25%;
-
-}
-
-.skills{
-  height: auto;
-}
-
-.skill-row{
-  width: 50%;
-  margin-left: 350px;
-  text-align: left;
-  line-height: 2;
-}
-
-.top-cloud{
-  position: relative;
-  margin: 50px auto 100px 500px;
-}
-.top-container{
-  background-color: #EEF2FF;
-  padding-top: 100px;
-}
-
-.last-para{
-  color: white;
-  font-size: 0.7rem;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
 .btn{
   background-color: #6A5495;
-  color: #F3C5C5;
-  text-decoration: none;
   border-radius: 10%;
-  padding: 10px 10px;
+  color: #F3C5C5;
   font-size: 16px;
+  padding: 10px 10px;
+  text-decoration: none;
 }
 .btn:hover{
   background-color: #630000;
@@ -124,4 +76,55 @@ p{
 
 .footer-link:hover{
   color: #630000;
+}
+
+.img-chilli{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+
+}
+
+.img-computer{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+
+}
+
+.last-para{
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.middle-container{
+  background-color: white;
+}
+
+.profile-picture{
+  padding-top: 70px;
+  width: 200px;
+}
+
+.skills{
+  height: auto;
+}
+
+.skill-row{
+  line-height: 2;
+  margin-left: 350px;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud{
+  position: relative;
+  margin: 50px auto 100px 500px;
+}
+.top-container{
+  background-color: #EEF2FF;
+  padding-top: 100px;
 }
